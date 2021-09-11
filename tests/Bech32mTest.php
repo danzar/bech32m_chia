@@ -10,10 +10,6 @@
         public function test_encodeSegwit_is_successful()
         {
             //Arrange
-             //xch1v7hdwth79shnzp0aeux3049f29yqxmf3uahqfazzfupe3kxvldhqzrtqc8
-            //0x67aed72efe2c2f3105fdcf0d17d4a95148036d31e76e04f4424f0398d8ccfb6e
-
-
             $address = 'xch1v7hdwth79shnzp0aeux3049f29yqxmf3uahqfazzfupe3kxvldhqzrtqc8';
 
             $hrp = 'xch';
