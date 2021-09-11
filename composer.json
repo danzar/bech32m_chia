@@ -1,0 +1,23 @@
+{
+    "name": "danzar/bech32m_php",
+    "description": "Bech32m to be used with Chia",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danzar\\Bech32m\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "minimum-stability": "stable"
+}
