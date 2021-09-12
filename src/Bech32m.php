@@ -54,8 +54,8 @@
             if ($dataLen === 0 || $dataLen > 65) {
                 throw new Bech32Exception("Invalid length for segwit address");
             }
-
-            $decoded = self::convertBits(array_slice($data, 1), count($data) - 1, 5, 8, false);
+            
+            $decoded = self::convertBits($data, count($data) , 5, 8, false);
             $program = pack("C*", ...$decoded);
 
             self::validateWitnessProgram($data[0], $program);
