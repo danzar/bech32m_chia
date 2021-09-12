@@ -2,6 +2,7 @@
     "name": "danzar/bech32m_php",
     "description": "Bech32m to be used with Chia",
     "type": "library",
+    "keywords": ["bech32", "bech32m"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
